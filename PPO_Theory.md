@@ -6,7 +6,7 @@ ${E(R(\tau))}_ {\tau\sim P_\theta(\tau)}=\sum_\tau P_\theta(\tau)R(\tau)$
 $\nabla{E(R(\tau))}_ {\tau\sim P_\theta(\tau)}=\sum_\tau \nabla P_\theta(\tau)R(\tau)$  
 
 3. 转换为可采样的形式  
-$\nabla{E(R(\tau))}_{\tau\sim P_\theta(\tau)}=\sum_\tau \nabla P_\theta(\tau)R(\tau) \frac{P_\theta(\tau)}{P_\theta(\tau)}$  
+$\nabla{E(R(\tau))}_ {\tau\sim P_\theta(\tau)}=\sum_\tau \nabla P_\theta(\tau)R(\tau) \frac{P_\theta(\tau)}{P_\theta(\tau)}$  
 $=\sum_\tau P_\theta(\tau)R(\tau) \frac{\nabla P_\theta(\tau)}{P_\theta(\tau)}$  
 $=\frac{1}{N} \sum_{n=1}^{N} R(\tau^{n}) \frac{\nabla P_\theta(\tau^{n})}{P_\theta(\tau^{n})}$  
 $=\frac{1}{N} \sum_{n=1}^{N} R(\tau^{n}) \nabla \log P_\theta(\tau^{n})$  
