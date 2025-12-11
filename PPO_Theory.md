@@ -1,6 +1,6 @@
 #### 理论推导
 1. PPO的目标是：最大化在分布 $P_\theta$ 中采样的轨迹 $\tau$ 的总回报 $R(\tau)$  
-${E(R(\tau))}_{\tau\sim P_\theta(\tau)}=\sum_\tau P_\theta(\tau)R(\tau)$  
+$ {E(R(\tau))}_{\tau\sim P_\theta(\tau)}=\sum_\tau P_\theta(\tau)R(\tau) $  
 
 2. 转换成目标函数的梯度  
 $\nabla{E(R(\tau))}_{\tau\sim P_\theta(\tau)}=\sum_\tau \nabla P_\theta(\tau)R(\tau)$  
